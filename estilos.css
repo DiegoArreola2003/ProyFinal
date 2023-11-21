@@ -1,5 +1,11 @@
 body{
-    background: #8778a3;
+    margin: 0;
+    padding: 0;
+    background: url(fondo.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
 }
 button:hover{
     background: rgb(177, 69, 69);
@@ -17,7 +23,32 @@ button:hover{
     padding-bottom: 30px;
 
 }
+.boton{
+    display: block;
+    text-align: center;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto auto;
+    padding: 10px 5px;
+    background-color: #95a5a6;
+    color: #000;
+    text-decoration: none;
+}
 .tamaño{
     padding: 10px;
     
+}
+.inscripcion{
+    background: #95a5a6;/*Color de fondo*/
+    text-align: center;
+    border: 5px solid grey; /*borde tamaño, tipo y el color*/
+    box-shadow: 5px 5px 5px #002041;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
