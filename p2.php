@@ -35,13 +35,7 @@
             <label for="Contraseña">Crea tu contraseña</label> <br>
             <input type="password" name="password" required placeholder="Contraseña" class="tamaño">
             <br><br>
-        </div>
-        <div class = "boton">
-            <br><br>
-            <li><a href="p2.html" target="_parent">Crear</a></li>
-            <br><br>
-        </div>    
-    
+            <button type="submit">Guardar</button>
     
     </form>
 </body>

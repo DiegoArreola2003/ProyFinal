@@ -15,13 +15,7 @@
         <br><br>
         <label for="Contraseña">Da click en inscribirse para tener mas facilidades</label>
         <br>
-        
-    </div>
-    <div class = "boton">
-        <br><br>
-        <li><a href="p2.html">Ingresar</a></li>
-        <br><br>
-    </div>
+        <button type="submit">Guardar</button>
     
 </body>
 </html>
