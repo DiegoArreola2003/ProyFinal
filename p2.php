@@ -7,10 +7,10 @@
     <title>Incripción</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="inputUsu.php" method="POST"> 
         <div class = "inscripcion">
             <br>
-            <label for="Nombre/s">Nombre/s</label> <br>
+            <label for="Nombre">Nombre</label> <br>
             <input type="text" name="Nombre/s" required placeholder="Ingresa tu/s nombre/s" class="tamaño">
             <br><br>
             <br>
@@ -32,11 +32,10 @@
             <label for="Ciudad">Ciudad</label> <br>
             <input type="text" name="Ciudad" required placeholder="Ingresa tu Ciudad" class="tamaño">
             <br><br>
-            <label for="Contraseña">Crea tu contraseña</label> <br>
-            <input type="password" name="password" required placeholder="Contraseña" class="tamaño">
+            <label for="Contrasena">Crea tu contraseña</label> <br>
+            <input type="password" name="password" required placeholder="Contrasena" class="tamaño">
             <br><br>
-            <button type="submit">Guardar</button>
-    
+            <button type="submit">Guardar</button>    
     </form>
 </body>
 </html>
