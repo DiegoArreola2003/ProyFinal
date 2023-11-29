@@ -1,9 +1,5 @@
 <?php
-    $host_db="localhost:3308";
-    $user_db="root";
-    $pass_db="diego12345";
-    $db_name="UNI";
-    $conexion = new mysqli($host_db,$user_db,$pass_db,$db_name);
+    $conexion = new mysqli("localhost:3306","root","diego12345","uni");
     if($conexion->connect_error){
         echo"<h1>No se pudo</h1>";
     }
